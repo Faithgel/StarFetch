@@ -1,0 +1,9 @@
+scripts:
+  test: deno test
+
+  start: 
+    cmd: deno run src/index.ts
+    allow:
+      - env
+      - run
+      - read
